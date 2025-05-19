@@ -1,17 +1,2 @@
 @import "tailwindcss";
-@media (max-width: 768px) {
-    .nav-container {
-        flex-direction: column; /* Stack vertically */
-        align-items: flex-start; /* Align items to the left */
-    }
-
-    .nav-link {
-        width: 100%; /* Full width for links */
-        padding: 10px 15px; /* Add some padding */
-    }
-
-    .icon {
-        width: 20px; /* Adjust icon size for smaller screens */
-        height: 20px;
-    }
-}
+@import 'animate.css';
