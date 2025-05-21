@@ -1,8 +1,8 @@
 import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
-import ME from '../assets/me.jpeg'
 import { FaCss3, FaHtml5, FaReact } from "react-icons/fa";
 import { DiGit, DiJavascript1 } from 'react-icons/di';
 import { SiFirebase, SiRedux } from 'react-icons/si';
+import GitHubCalendar from 'react-github-calendar';
 
 
 const About = () => {
@@ -28,9 +28,9 @@ const About = () => {
                     <div>
                         <h3>Apart from coding, some other activities that I love to do!</h3> <br />
                         <ul class="list-none">
-                            <li class="before:content-['👉']"> Playing Cricket</li>
+                            <li class="before:content-['👉']"> Sports</li>
                             <li class="before:content-['👉']"> Discovering new things</li>
-                            <li class="before:content-['👉']"> Third item</li>
+                            <li class="before:content-['👉']"> </li>
                         </ul>
                     </div>
                 </div>
@@ -39,42 +39,42 @@ const About = () => {
             <h3 className='text-4xl text-center font-semibold'>Professional Skillset</h3>
             <div className='flex justify-center gap-10 flex-wrap my-5 mx-30'>
                 {/* HTML */}
-                <div className='p-20 border border-white rounded w-50 shadow-xl hover:transform-gpu'>
+                <div className='p-20 border-2 border-white rounded w-50 shadow-xl hover:transform-gpu'>
                     <span className='text-[48px]'>
                         <FaHtml5 />
                     </span>
                 </div>
 
                 {/* CSS */}
-                <div className='p-20 border border-white rounded w-50 shadow-xl hover:transform-gpu '>
+                <div className='p-20 border-2 border-white rounded w-50 shadow-xl hover:transform-gpu '>
                     <span className='text-[48px]'>
                         <FaCss3 />
                     </span>
                 </div>
 
                 {/* TAILWIND */}
-                <div className='p-20 border border-white rounded w-50 shadow-xl hover:transform-gpu '>
+                <div className='p-20 border-2 border-white rounded w-50 shadow-xl hover:transform-gpu '>
                     <span className="text-[48px]">
                         <RiTailwindCssFill />
                     </span>
                 </div>
 
                 {/* JAVASCRIPT */}
-                <div className='p-20 border border-white rounded w-50 shadow-xl hover:transform-gpu'>
+                <div className='p-20 border-2 border-white rounded w-50 shadow-xl hover:transform-gpu'>
                     <span className='text-[48px]'>
                         <DiJavascript1 />
                     </span>
                 </div>
 
                 {/* REACT JS */}
-                <div className='p-20 border border-white rounded w-50 shadow-xl hover:transform-gpu '>
+                <div className='p-20 border-2 border-white rounded w-50 shadow-xl hover:transform-gpu '>
                     <span className='text-[48px]'>
                         <FaReact />
                     </span>
                 </div>
 
                 {/* REDUX */}
-                <div className='p-20 border border-white rounded w-50 shadow-xl hover:transform-gpu '>
+                <div className='p-20 border-2 border-white rounded w-50 shadow-xl hover:transform-gpu '>
                     <span className='text-[48px]'>
                         <SiRedux />
                     </span>
@@ -82,28 +82,37 @@ const About = () => {
 
 
                 {/* NEXT JS */}
-                <div className='p-20 border border-white rounded w-50 shadow-xl hover:transform-gpu '>
+                <div className='p-20 border-2 border-white rounded w-50 shadow-xl hover:transform-gpu '>
                     <span className='text-[48px]'>
                         <RiNextjsFill />
                     </span>
                 </div>
 
                 {/* FIREBASE */}
-                <div className='p-20 border border-white rounded w-50 shadow-xl hover:transform-gpu '>
+                <div className='p-20 border-2 border-white shadow-xl rounded w-50 hover:transform-gpu '>
                     <span className='text-[48px]'>
                         <SiFirebase />
                     </span>
                 </div>
 
                 {/* GIT */}
-                <div className='p-20 border border-white rounded w-50 shadow-xl hover:transform-gpu '>
+                <div className='p-20 border-2 border-white rounded w-50 shadow-xl'>
                     <span className='text-[48px]'>
                         <DiGit />
                     </span>
                 </div>
 
-
-
+            </div>
+            <div className='flex flex-col items-center gap-5 my-10'>
+                <h1 className='text-2xl text-center'>
+                    Days I <strong className="font-bold">Code</strong>
+                </h1>
+                <div className=''>
+                    <GitHubCalendar
+                        username="zaidashraf19"
+                        colorScheme='light'
+                    />
+                </div>
             </div>
         </>
     )

@@ -2,6 +2,7 @@ import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import Avatar from '../assets/developeravatar.png'
 import Typewriter from "typewriter-effect";
 import { IoMdMail } from 'react-icons/io';
+import ME from '../assets/me.png'
 
 const Home = () => {
     return (
@@ -27,9 +28,9 @@ const Home = () => {
                 </div>
                 <div>
                     <img
-                        src={Avatar}
+                        src={ME}
                         alt="Developer Avatar"
-                        className="bg-gray-700 w-60 rounded-lg"
+                        className=" w-80 rounded-full"
                     />
                 </div>
             </div>
