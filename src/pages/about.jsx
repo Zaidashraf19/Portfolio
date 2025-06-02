@@ -11,7 +11,6 @@ const About = () => {
             <div className="text-xl p-5 flex justify-around gap-8 flex-wrap">
                 <div>
                     <img
-                        // src={ME}
                         src='https://static.vecteezy.com/system/resources/thumbnails/011/961/865/small/programmer-icon-line-color-illustration-vector.jpg'
                         alt="Boy avatar"
                         className="rounded-full w-70 border-white border-2 bg-gray-700 p-2"
@@ -107,7 +106,7 @@ const About = () => {
                 <h1 className='text-2xl text-center'>
                     Days I <strong className="font-bold">Code</strong>
                 </h1>
-                <div className=''>
+                <div className='px-10'>
                     <GitHubCalendar
                         username="zaidashraf19"
                         colorScheme='light'
