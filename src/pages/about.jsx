@@ -102,7 +102,7 @@ const About = () => {
                 </div>
 
             </div>
-            <div className='flex flex-col items-center gap-5 my-5'>
+            <div className='flex flex-col items-center gap-5 '>
                 <h1 className='text-2xl text-center'>
                     Days I <strong className="font-bold">Code</strong>
                 </h1>
