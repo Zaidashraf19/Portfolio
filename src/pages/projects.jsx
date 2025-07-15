@@ -4,7 +4,7 @@ import EcommerceApp from "../assets/EcommerceApp.png";
 import GitHubProfileViewerApp from "../assets/GitHubProfileViewerApp.png";
 import NoonApp from "../assets/NoonApp.png";
 import WeatherApp from "../assets/WeatherApp.png";
-import ProductListing from "../assets/Product-Listing.png";
+import ProductListing from "../assets/Product-listing.png";
 import FilterApp from "../assets/Filter-App.png";
 import SaltNPepper from "../assets/SaltNPepper-App.png";
 
